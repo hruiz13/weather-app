@@ -7,7 +7,7 @@ const apiKey = '4ae2636d8dfbdc3044bede63951a019b';
 export const findCity = (city, cities) => {
     return async (dispatch) => {
         try {
-            const resp = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`);
+            const resp = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`);
             const body = await resp.json();
             if (body.cod === 200) {
                 body.date = new Date().toLocaleTimeString('en-US');
