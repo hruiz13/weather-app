@@ -1,0 +1,6 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #6ae;
+    justify-content: center;
+}

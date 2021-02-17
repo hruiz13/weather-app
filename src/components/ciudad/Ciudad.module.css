@@ -1,0 +1,35 @@
+.ciudad{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #fef;
+    width: fit-content;
+    justify-content: center;
+    padding: 30px;
+    font-size: 1rem;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.df{
+    display: flex;
+    align-items: center;
+
+}
+
+.card__title{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.card__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #eff;
+    font-size: 1.1rem;
+    padding: 20px;
+    border-radius: 10px;
+    height: 200px;
+}
